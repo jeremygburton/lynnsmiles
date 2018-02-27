@@ -14,6 +14,7 @@ body{
 .bodyText{
   color:#383e41;
   font-size: 1em;
+  font-family: 'Crimson Text', serif;
 }
 
 .placeholder{
@@ -36,7 +37,7 @@ body{
 /* SITE TITLE AND DEFINITION SECTION */
 
 #siteTitle{
-  font-family: 'Mukta Mahee', sans-serif;
+  font-family: 'Caveat Brush', cursive;
   font-weight: 800;
   line-height: 1.0;
   color:#e63946;
