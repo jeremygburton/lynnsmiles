@@ -1,0 +1,133 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+
+
+/* GLOBAL STYLES */
+body{
+  margin-top: 0;
+}
+
+
+.bodyText{
+  color:#383e41;
+  font-size: 1em;
+}
+
+.placeholder{
+  border: solid 1px #000000;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+#colorBar{
+  height:7px;
+  background-color: #af4591;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+/* SITE TITLE AND DEFINITION SECTION */
+
+#siteTitle{
+  font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 800;
+  line-height: 1.0;
+  width: 90%;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+#pronunciation{
+  margin: 0 0 0 0;
+  width: 90%;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+#partOfSpeech{
+  font-style: italic;
+  margin: 0 0 0px 0;
+  width: 90%;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+
+#definitions{
+width: 90%;
+margin-top: 10px;
+margin-right:auto;
+margin-left:auto;
+}
+
+
+li{
+  line-height: 1.4;
+  margin: 0 0 10px 0;
+}
+
+
+#loading{
+  z-index: 99;
+}
+
+#view-wrapper{
+  text-align: center;
+}
+
+#view-frame{
+  width:100%;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#smiles-button:hover{
+  cursor: pointer;
+}
+
+
+/* ANIMATION TRANSITONS */
+
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 525px)  {
+#view-frame{
+  width:85%;
+  z-index: 1;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+}
+
+
+@media only screen and (min-width: 700px)  {
+#view-frame{
+  width:75%;
+  z-index: 1;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+}
+
+@media only screen and (min-width: 1100px)  {
+#view-frame{
+  width:65%;
+  z-index: 1;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+}
