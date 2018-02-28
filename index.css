@@ -1,11 +1,6 @@
-/**
- * index.scss
- * - Add any styles you want here!
- */
 
 
-
-/* GLOBAL STYLES */
+/************** GLOBAL STYLES **************/
 body{
   margin-top: 0;
   background-color: rgba(241, 250, 238, 0.5);
@@ -39,13 +34,13 @@ body{
 }
 
 
-/* SITE TITLE AND DEFINITION SECTION */
+/************** SITE TITLE AND DEFINITION SECTION **************/
 
 #siteTitle{
   font-family: 'Caveat Brush', cursive;
   font-weight: 800;
   line-height: 1.0;
-  font-size: 3em;
+  font-size: 27px;
   
   color: #e63946;
 
@@ -61,6 +56,7 @@ body{
   width: 90%;
   margin-right:auto;
   margin-left:auto;
+  font-size:14px;
 }
 
 #partOfSpeech{
@@ -69,6 +65,7 @@ body{
   width: 90%;
   margin-right:auto;
   margin-left:auto;
+  font-size:14px;
 }
 
 
@@ -77,6 +74,7 @@ width: 90%;
 margin-top: 10px;
 margin-right:auto;
 margin-left:auto;
+font-size:14px;
 }
 
 
@@ -86,9 +84,7 @@ li{
 }
 
 
-#loading{
-  z-index: 99;
-}
+/************** VIEW **************/
 
 #view-wrapper{
   text-align: center;
@@ -102,7 +98,7 @@ li{
 
 
 
-/* BUTTONS */
+/************** BUTTONS **************/
 
 #button-container{
   text-align: center;
@@ -111,37 +107,38 @@ li{
 #smiles-button{
 	background: #e63946; /* fallback for old browsers */
  /* Analogous Gradient */ 
-  background: -webkit-linear-gradient(to right bottom, #e63946, #FD32A7); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right bottom, #e63946, #FD32A7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to right bottom, #e63946, #FD32A7); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right bottom, #e63946, #FD32A7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-/*Shades Gradient with three steps */
-/*background: -webkit-linear-gradient(to right bottom, #F33C4A, #CC333E, #A62933); /* Chrome 10-25, Safari 5.1-6 */
-/*background: linear-gradient(to right bottom, #F33C4A, #CC333E, #A62933); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*Shades Gradient with three steps */
+	/*background: -webkit-linear-gradient(to right bottom, #F33C4A, #CC333E, #A62933); /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to right bottom, #F33C4A, #CC333E, #A62933); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+	color:white;
+	text-shadow: 0 -1px 1px rgba(102, 25, 31, .7);
 
-  color:white;
-  text-shadow: 0 -1px 1px rgba(102, 25, 31, .7);
+	display: block;
 
-  display: block;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 27px;
 
-  font-family: 'Caveat Brush', cursive;
-  font-size: 3em;
+	line-height: 75px;
+	  
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 32px;
+	height: 75px;
+	line-height: 75px;
 
-  line-height: 75px;
-  
-  width:80%;
-  margin-left:auto;
-  margin-right:auto;
-  height: 75px;
-  
-  border-radius: 6px;
-  border:none;
+	border-radius: 6px;
+	border:none;
 
 	box-shadow:0 2px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 5px 0 #B32C36, 0 5px 2px rgba(0, 0, 0, .5);
 }
 
 #smiles-button:hover{
-  cursor: pointer;
+	cursor: pointer;
 }
 
 
@@ -164,7 +161,10 @@ li{
 
 
 
-/*MEDIA QUERIES*/
+
+
+
+/************** MEDIA QUERIES **************/
 
 @media only screen and (min-width: 525px)  {
 #view-frame{
