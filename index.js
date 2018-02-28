@@ -1,6 +1,6 @@
 
 
-document.getElementsByTagName("h1")[0].style.fontSize = "40px";
+//document.getElementsByTagName("h1")[0].style.fontSize = "40px";
 
 $('#loading').hide();
 
