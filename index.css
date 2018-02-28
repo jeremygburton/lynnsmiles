@@ -40,7 +40,7 @@ body{
   font-family: 'Caveat Brush', cursive;
   font-weight: 800;
   line-height: 1.0;
-  font-size: 27px;
+  font-size: 70px;
   
   color: #e63946;
 
@@ -135,6 +135,8 @@ li{
 	border:none;
 
 	box-shadow:0 2px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 5px 0 #B32C36, 0 5px 2px rgba(0, 0, 0, .5);
+
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 #smiles-button:hover{
@@ -153,7 +155,10 @@ li{
 
 	-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset;
 	top:5px;
+
 }
+
+#smiles-button:focus {outline:0;}
 
 
 
