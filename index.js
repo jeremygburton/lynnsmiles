@@ -8,8 +8,13 @@ $('#loading').hide();
 function imageReplacer() {
 	//$('#loading').show(50).delay(800).hide(50);
 
+	document.getElementById("view-frame").className = "animated-out";
 
-	setTimeout(displayNewImage, 500)
+	setTimeout(function(){ document.getElementById("view-frame").className = document.getElementById("view-frame").className.replace( /(?:^|\s)animated-out(?!\S)/g , 'animated-in' );}, 1700);
+
+	setTimeout(displayNewImage, 1700);
+
+	//setTimeout( document.getElementById("view-frame").className = "animated-in"; , 3000);
 }
 
 //document.getElementById("button").onclick = randomTest;

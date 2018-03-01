@@ -7,6 +7,7 @@ body{
   background-image: url("img/symphony.png");
   background-repeat: repeat;
   background-blend-mode: lighten;
+  overflow-x: hidden;
 }
 
 
@@ -75,6 +76,7 @@ margin-top: 10px;
 margin-right:auto;
 margin-left:auto;
 font-size:14px;
+margin-bottom: 32px;
 }
 
 
@@ -94,6 +96,50 @@ li{
   width:100%;
   z-index: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+
+.animated-out{
+  animation-duration: 4s;
+  animation-name: slideRightOut;
+}
+
+.animated-in{
+  animation-duration: 2s;
+  animation-name: slideLeftIn;
+}
+
+
+@keyframes slideRightOut {
+ 0% {
+    left:0px;
+ }
+
+ 25% {
+    left:3000px;
+ }
+
+100% {
+    left:3000px;
+ }
+
+}
+
+
+@keyframes slideLeftIn {
+ 0% {
+    right:3000px;
+ }
+
+75% {
+  right:3000px;
+}
+
+ 100% {
+    right:0px;
+ }
+
 }
 
 
