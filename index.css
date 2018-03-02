@@ -13,7 +13,7 @@ body{
 
 .bodyText{
   color:#383e41;
-  font-size: 2em;
+  font-size: .875em;
   font-family: 'Crimson Text', serif;
   font-weight: 400;
 }
@@ -41,7 +41,7 @@ body{
   font-family: 'Caveat Brush', cursive;
   font-weight: 800;
   line-height: 1.0;
-  font-size: 70px;
+  font-size: 4em;
   
   color: #e63946;
 
@@ -165,9 +165,9 @@ li{
 	display: block;
 
 	font-family: 'Caveat Brush', cursive;
-	font-size: 27px;
+	font-size: 4em;
 
-	line-height: 75px;
+	line-height: 4em;
 	  
 	width:80%;
 	margin-left:auto;
