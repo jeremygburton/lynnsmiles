@@ -1,9 +1,5 @@
 
 
-//document.getElementsByTagName("h1")[0].style.fontSize = "40px";
-
-$('#loading').hide();
-
 
 function imageReplacer() {
 	//$('#loading').show(50).delay(800).hide(50);
