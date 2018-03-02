@@ -171,10 +171,9 @@ li{
 /************** FRAME **************/
 
 #view-frame{
-  width:100%;
-  z-index: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: relative;
+
 }
 
 
@@ -314,8 +313,7 @@ li{
 
 @media only screen and (min-width: 700px)  {
 #view-frame{
-  width:75%;
-  z-index: 1;
+  width:45%;
   margin-left:auto;
   margin-right:auto;
 }
@@ -344,6 +342,9 @@ li{
 #smiles-button{
 	font-size: 2.85em;
 	width:60%;
+
+	height: 60px;
+	line-height: 60px;
 }
 
 
@@ -352,7 +353,6 @@ li{
 
 @media only screen and (min-width: 1100px)  {
 #view-frame{
-  width:65%;
   z-index: 1;
   margin-left:auto;
   margin-right:auto;
