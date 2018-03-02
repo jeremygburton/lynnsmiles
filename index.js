@@ -1,8 +1,11 @@
 
+$("#overlay").hide();
+$("#goatEmergency").hide();
+$("#goatEmergencyTitle").hide();
 
 
+// FUNCTIONS *********************************************************************
 function imageReplacer() {
-	//$('#loading').show(50).delay(800).hide(50);
 
 	document.getElementById("view-frame").className = "animated-out";
 
@@ -33,29 +36,50 @@ function randomTest(){
 }
 
 
-// EVENT LISTENER FOR THE HAPPINESS BUTTON
-var el = document.getElementById("smiles-button");
-
-el.addEventListener("click", imageReplacer, false);
-
-
-
-
-// event listener experiment
-
-/*
-var el = document.getElementById("title");
-var tapCount = 0;
-
-el.addEventListener("click", tapTap, false);
-
 
 function tapTap(){
 	tapCount = tapCount + 1;
 
 	if (tapCount > 4) {
-		randomTest();
+		showGoatEmergency();
+
+		setTimeout(hideGoatEmergency, 10000);
+
+		tapCount = 0;
 	}
 }
 
-*/
+
+
+function showGoatEmergency(){
+	$("#overlay").show();
+	$("#goatEmergency").show();
+	$("#goatEmergencyTitle").show();
+}
+
+
+function hideGoatEmergency(){
+	$("#overlay").hide();
+	$("#goatEmergency").hide();
+	$("#goatEmergencyTitle").hide();
+}
+
+
+// EVENT LISTENER FOR THE HAPPINESS BUTTON *********************************************************************
+var el = document.getElementById("smiles-button");
+
+el.addEventListener("click", imageReplacer, false);
+
+
+// EVENT LISTENER FOR THE GOAT EMERGENCY *********************************************************************
+
+
+var GOAT = document.getElementById("siteTitle");
+var tapCount = 0;
+
+GOAT.addEventListener("click", tapTap, false);
+
+
+
+
+
