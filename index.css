@@ -89,7 +89,43 @@ li{
 
 #view-wrapper{
   text-align: center;
+  position: relative;
+  margin-bottom: 75px;
 }
+
+
+#pulse{
+	width: 300px;
+	height: 300px;
+	margin-left:auto;
+	margin-right:auto;
+	display: inline-block;
+	position: absolute;
+	left:40%;
+	top:5%;
+
+	background-color: #1d3557;
+	border-radius:300px;
+	outline: 1px solid transparent;
+	animation: pulseanim 1.5s ease-in-out infinite; 
+}
+
+#loading-goat{
+	width:18%;
+	margin-left:auto;
+	margin-right:auto;
+	
+	display: inline-block;
+	position: absolute;
+	left:40%;
+	top:5%;
+}
+
+@keyframes pulseanim {
+  0% { transform: scale(0);}
+  100% { transform: scale(1); opacity: 0;}
+}
+
 
 #view-frame{
   width:100%;
