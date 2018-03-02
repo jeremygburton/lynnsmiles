@@ -19,7 +19,7 @@ function imageReplacer() {
 function displayNewImage(){
 		var view = document.getElementById("view-frame");
 		
-		var randomNumber = Math.floor(Math.random() * 50) + 1;
+		var randomNumber = Math.floor(Math.random() * 61) + 1;
 		var imgName = "img_" + randomNumber + ".jpg";
 
 		view.src= "img" + "/" + imgName ;
