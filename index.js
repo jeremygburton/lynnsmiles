@@ -16,7 +16,6 @@ function imageReplacer() {
 	//setTimeout( document.getElementById("view-frame").className = "animated-in"; , 3000);
 }
 
-//document.getElementById("button").onclick = randomTest;
 
 
 function displayNewImage(){
@@ -27,12 +26,6 @@ function displayNewImage(){
 
 		view.src= "img" + "/" + imgName ;
 
-}
-
-
-function randomTest(){
-	var randomNumber = Math.floor(Math.random() * 20) + 1;
-	document.getElementById("rand").innerHTML = randomNumber;
 }
 
 
