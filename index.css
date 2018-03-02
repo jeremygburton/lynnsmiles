@@ -3,7 +3,9 @@
 /************** GLOBAL STYLES **************/
 body{
   margin-top: 0;
-  background-color: rgba(241, 250, 238, 0.5);
+  margin-right:0;
+  margin-left:0;
+  background-color: rgba(241, 250, 238, 0.1);
   background-image: url("img/symphony.png");
   background-repeat: repeat;
   background-blend-mode: lighten;
@@ -49,6 +51,7 @@ body{
   margin-right:auto;
   margin-left:auto;
   margin-bottom: 8px;
+  margin-top: 8px;
   text-align: left;
 }
 
@@ -57,7 +60,7 @@ body{
   width: 90%;
   margin-right:auto;
   margin-left:auto;
- 
+
 }
 
 #partOfSpeech{
@@ -243,7 +246,6 @@ li{
 	font-family: 'Caveat Brush', cursive;
 	font-size: 4em;
 
-	line-height: 4em;
 	  
 	width:80%;
 	margin-left:auto;
@@ -317,6 +319,34 @@ li{
   margin-left:auto;
   margin-right:auto;
 }
+
+#siteTitle{
+  width: 75%;
+}
+
+#pronunciation{
+  width: 75%;
+}
+
+#partOfSpeech{
+  width: 75%;
+}
+
+
+#definitions{
+	width: 75%;
+}
+
+.bodyText{
+  font-size: 1em;
+}
+
+#smiles-button{
+	font-size: 2.85em;
+	width:60%;
+}
+
+
 
 }
 
