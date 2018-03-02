@@ -94,6 +94,17 @@ li{
 }
 
 
+/************** LOADING **************/
+
+
+#loading-wrapper{
+	position: absolute;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+}
+
 #pulse{
 	width: 300px;
 	height: 300px;
@@ -115,7 +126,7 @@ li{
 	margin-left:auto;
 	margin-right:auto;
 	
-	display: inline-block;
+	display: block;
 	position: absolute;
 	left:40%;
 	top:5%;
@@ -126,6 +137,35 @@ li{
   100% { transform: scale(1); opacity: 0;}
 }
 
+
+.loading-text{
+	color:#383e41;
+ 	font-size: 1.2em;
+ 	font-family: 'Crimson Text', serif;
+ 	font-weight: 400;
+ 	font-style: italic;
+ 	
+ 	position: relative;
+ 	
+
+}
+
+#loading-title{
+	right:15px;
+}
+
+#loading-desc{
+	right:15px;
+	bottom: -180px;
+}
+
+
+
+
+
+
+
+/************** FRAME **************/
 
 #view-frame{
   width:100%;
