@@ -1,6 +1,7 @@
 
 $("#overlay").hide();
 $("#goatEmergency").hide();
+$("#inCase").hide();
 $("#goatEmergencyTitle").hide();
 
 
@@ -21,7 +22,7 @@ function imageReplacer() {
 function displayNewImage(){
 		var view = document.getElementById("view-frame");
 		
-		var randomNumber = Math.floor(Math.random() * 63) + 1;
+		var randomNumber = Math.floor(Math.random() * 65) + 1;
 		var imgName = "img_" + randomNumber + ".jpg";
 
 		view.src= "img" + "/" + imgName ;
@@ -47,6 +48,7 @@ function tapTap(){
 function showGoatEmergency(){
 	$("#overlay").show();
 	$("#goatEmergency").show();
+	$("#inCase").show();
 	$("#goatEmergencyTitle").show();
 }
 
@@ -54,6 +56,7 @@ function showGoatEmergency(){
 function hideGoatEmergency(){
 	$("#overlay").hide();
 	$("#goatEmergency").hide();
+	$("#inCase").hide();
 	$("#goatEmergencyTitle").hide();
 }
 
